@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 1em -> 16px */
+/* body {
+    font-size: 20px;
+}
+
+.text-container{
+    font-size: 1.5em;
+}
+
+.text-container div{
+    font-size: 1.5em;
+} */
+
+/* 1rem -> 16px */
+/* Gracias a este cambio en html, 1rem -> 10px */
+/* html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+main div {
+    font-size: 1.6rem;
+} */
+
+main {
+    width: 100vw;
+    height: 100vw;
+    background-color: purple;
+}
+
+section {
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: red;
+}

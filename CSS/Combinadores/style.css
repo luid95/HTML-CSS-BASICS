@@ -1,0 +1,21 @@
+/*hermano cercano - adyacent sibling */
+/* toda etiqueta p que esta cerca de h2 */
+h2 + p {
+    color: red;;
+}
+
+/*hermano general - general sibling */
+/* toda etiqueta p que tengan hermano general de h3 */
+h3 ~ p {
+    color: blue;;
+}
+/* hijo - hijo */
+/* toda etiqueta p que sea hijo de una etiqueta div */
+div > p {
+    color: Orange;
+}
+/* descendiente - descendiente */
+/* toda etiqueta p que sea encuentran dentro de un div */
+div p {
+    color: purple;
+}
